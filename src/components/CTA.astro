@@ -1,0 +1,5 @@
+---
+import { whatsappUrl } from '../data/site';
+const { label='Consultar disponibilidade', message } = Astro.props;
+---
+<section class="section" style="background:var(--teal);color:#fff"><div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap"><div><span class="eyebrow">Próximo passo</span><h2 style="color:#fff;margin-top:.5rem">Organize sua próxima operação.</h2><p style="color:#d5e1de;max-width:540px">Converse com a Áurea Laser e consulte disponibilidade do Ácrus HTM para a sua clínica.</p></div><a class="btn btn-primary" href={whatsappUrl(message)}>{label}</a></div></section>
