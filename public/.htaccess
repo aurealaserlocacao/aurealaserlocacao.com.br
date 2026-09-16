@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Preserve SEO das URLs antigas
+Redirect 301 /locacao-acrus.html /locacao-laser/
+Redirect 301 /acrus-htm-triple-wave.html /acrus-htm/
+
+# Permitir URLs amigáveis geradas pelo Astro
+DirectoryIndex index.html
